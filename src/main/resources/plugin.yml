@@ -1,0 +1,9 @@
+name: CHunterAI
+version: '1.0'
+main: org.charlie.cHunterAI.CHunterAI
+api-version: '1.21'
+depend: [Citizens]
+commands:
+  spawnhunter:
+    description: Spawns an NPC hunter to chase the player.
+    usage: /spawnhunter
